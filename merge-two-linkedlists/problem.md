@@ -44,13 +44,11 @@ Return:
       }
       last = last.next;
     }
-    while (n1) {
+    if (n1 !== null) {
       last.next = n1;
-      n1 = n1.next;
     }
-    while (n2) {
+    if (n2 !== null) {
       last.next = n2;
-      n2 = n2.next;
     }
     return merged;
   }

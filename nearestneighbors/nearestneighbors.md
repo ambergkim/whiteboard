@@ -18,3 +18,10 @@ Distance formula:
 Math.sqrt( (x1 - x2)^2 + (y1 - y2)^2 )
 
 You may use [].sort()
+
+
+
+## NOTES
+* objects in the list may have the same labels
+* Need to go through the labels and return how many times a label shows up.
+* return the tally/label that shows up the most. This will be the label of your start
